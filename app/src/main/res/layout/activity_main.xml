@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/rrhome">
+
+    <Button
+        android:id="@+id/button_camera"
+        android:contentDescription="@string/button_camera"
+        android:layout_width="152dp"
+        android:layout_height="53dp"
+        android:textSize="30sp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:singleLine="false"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="152dp"
+        android:layout_height="53dp"
+        android:id="@+id/results_btn"
+        android:textSize="30sp"
+        android:longClickable="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/button_camera"
+        android:layout_toRightOf="@+id/button_camera"
+        android:layout_toEndOf="@+id/button_camera" />
+
+</RelativeLayout>

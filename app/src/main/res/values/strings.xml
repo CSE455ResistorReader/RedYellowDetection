@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Resistor Reader</string>
+    <string name="resistor_reader">Resistor Reader</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_camera">Camera</string>
+    <string name="image_cd_camera">Generic Camera</string>
+    <string name="results">Results</string>
+
+</resources>
